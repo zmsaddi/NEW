@@ -1,14 +1,8 @@
 {
   "en": {
-    "home": "Home",
-    "services": "Services",
-    "contact": "Contact",
-    "welcome": "Welcome to MSADDI"
+    "welcome": "Welcome"
   },
   "ar": {
-    "home": "الرئيسية",
-    "services": "خدماتنا",
-    "contact": "اتصل بنا",
-    "welcome": "مرحباً بكم في مسدي"
+    "welcome": "مرحبا"
   }
 }

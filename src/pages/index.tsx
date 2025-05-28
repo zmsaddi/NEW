@@ -1,17 +1,13 @@
 import Layout from '../components/Layout'
 
-export default function HomePage() {
+export default function Home() {
   return (
     <Layout>
-      <main className="p-10 text-center">
-        <h1 className="text-3xl font-bold mb-6">الصفحة الرئيسية</h1>
-        <img
-          src="/logo.png"
-          alt="Test logo"
-          style={{ height: '120px', border: '2px solid red', display: 'inline-block' }}
-        />
-        <p className="mt-4 text-gray-500">اختبار ظهور الشعار</p>
-      </main>
+      <section className="flex flex-col items-center justify-center py-20">
+        <img src="/logo.png" alt="MSADDI logo" className="h-40 mb-8"/>
+        <h1 className="text-4xl font-bold">Welcome to MSADDI</h1>
+        <p className="mt-4 text-gray-600">Sheet Metal Fabrication Services</p>
+      </section>
     </Layout>
-  );
+  )
 }
