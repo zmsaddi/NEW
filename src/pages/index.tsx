@@ -1,15 +1,17 @@
-import Head from 'next/head'
+import Layout from '../components/Layout'
 
 export default function HomePage() {
   return (
-    <>
-      <Head>
-        <title>Home | MSADDI</title>
-      </Head>
-      <main className="flex flex-col items-center justify-center py-16">
-        <h1 className="text-4xl font-bold text-primary">Home</h1>
-        <p className="mt-4 text-lg text-gray-600">This page is under construction.</p>
+    <Layout>
+      <main className="p-10 text-center">
+        <h1 className="text-3xl font-bold mb-6">الصفحة الرئيسية</h1>
+        <img
+          src="/logo.png"
+          alt="Test logo"
+          style={{ height: '120px', border: '2px solid red', display: 'inline-block' }}
+        />
+        <p className="mt-4 text-gray-500">اختبار ظهور الشعار</p>
       </main>
-    </>
-  )
+    </Layout>
+  );
 }
